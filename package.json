@@ -1,0 +1,12 @@
+{
+  "name": "@rammbulanz/lit-helpers",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@polymer/lit-element": "^0.5.2"
+  },
+  "files": [
+    "lib"
+  ]
+}

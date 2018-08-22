@@ -1,0 +1,5 @@
+{
+   "npm": true,
+   "moduleResolution": "node",
+   "entrypoint": "demo/demo.html"
+}
