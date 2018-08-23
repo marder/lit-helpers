@@ -13,13 +13,11 @@ export const customElement = (name: string) => (constructor: any) => {
  * Store entry in properties
  */
 export const property = (creator: any) => (target: any, name: string) => {
-   
-   const prototype = target.constructor.prototype;
 
-   if (!prototype.properties) {
-      prototype.properties = {};
+   if (!target.constructor.properties) {
+      target.constructor.properties = {};
    }
 
-   prototype.properties[name] = creator;
+   target.constructor.properties[name] = creator;
 
 }

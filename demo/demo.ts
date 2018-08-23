@@ -7,12 +7,18 @@ export class DemoApp extends LitElement {
    @property(String)
    title: string
 
+   @property(Number)
+   number: number
+
    _render() {
       return html`
 
          <h1>Demo App</h1>
          <br/>
-         <h2>${this.title}</h2>
+         <ul>
+            <li>${this.title}</li>
+            <li>${this.number}</li>
+         </ul>
 
       `
    }
