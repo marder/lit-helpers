@@ -1,3 +1,5 @@
+> DEPRECATED: The functions are already in lit-elements repository
+
 # lit-helpers
 
 ## Install
